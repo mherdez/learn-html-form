@@ -1,0 +1,17 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "trailingComma": "all",
+  "pluginSearchDirs": ["."],
+  "overrides": [
+    {
+      "files": "*.{js*,ts*}",
+      "options": {
+        "jsxSingleQuote": true,
+        "semi": false,
+        "singleQuote": true
+      }
+    }
+  ]
+}
+

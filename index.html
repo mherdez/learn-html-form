@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Formulario</h1>
+  <form>
+    <fieldset>
+      <legend>Información personal</legend>
+      <label>
+        <span>Nombre</span>
+        <input name="first_name" type="text" placeholder="Manuel">
+      </label>
+      <label>
+        <span>Apellido</span>
+        <input name="last_name" type="text" placeholder="Hernández">
+      </label>
+      <label>
+        <span>Fotografía</span>
+        <input name="photo" type="file" accept="image/*">
+      </label>
+      <label>
+        <span>Email</span>
+        <input name="email" type="email" placeholder="manuel@gmail.com">
+      </label>
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+  <img src="" alt="" id="photo">
+</body>
+
+<script src="app.js"></script>
+
+</html>
